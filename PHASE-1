@@ -1,0 +1,31 @@
+Phase 1: Problem Understanding & Industry Analysis 
+
+1. Requirement Gathering 
+• Store and manage policy details (type, premium, expiry, customer). 
+• Automate renewal reminders for policies. 
+• Enable claim submission & approval process. 
+• Provide dashboards for management (renewals, claims, agent performance). 
+• Ensure data security for sensitive customer information. 
+
+2. Stakeholder Analysis 
+• Policyholders (Customers): Submit claims, receive updates, renew policies. 
+• Agents: Manage policies, handle claims, follow up with customers. 
+• Claims Officers: Verify documents, approve/reject claims. 
+• Managers/Admins: Monitor renewals, claims, revenue, and agent performance. 
+
+3. Business Process Mapping 
+  1. Policy Creation → Agent issues a policy to a customer. 
+  2. Policy Renewal → CRM checks expiry → sends reminders → agent/customer renews. 
+  3. Claim Submission → Customer submits → assigned to agent → verified → approved/rejected. 
+  4. Reporting → Manager views dashboards for performance & decision-making. 
+
+4. Industry-Specific Use Case Analysis 
+• Most insurance companies need policy lifecycle management, renewal automation, and claim processing transparency. 
+• Benchmark: Companies using CRMs like Salesforce improve claim resolution time and customer retention. 
+• Compliance: Sensitive customer and claim data must be secured (field-level security, encryption). 
+
+5. AppExchange Exploration 
+• Explore existing Salesforce apps that could support insurance use cases: 
+      o Insurance Policy Management Apps 
+      o Document Management Apps (for claims) 
+      o SMS/Email Notification Apps (Twilio, SendGrid, ClickSend)
