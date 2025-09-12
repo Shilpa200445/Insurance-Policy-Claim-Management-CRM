@@ -1,0 +1,45 @@
+Project Title: "Insurance CRM – Policy & Claim Management System" 
+• Industry: Insurance 
+• Project Type: B2C Salesforce CRM Implementation 
+• Target Users: Insurance Agents, Claims Officers, Policyholders, and Managers 
+
+
+Problem Statement :- 
+An insurance company manages thousands of policies and claims across health, life, and 
+vehicle segments. However, policy renewals are often missed due to manual tracking, leading 
+to revenue loss and poor customer retention. In addition, claim processing is slow and lacks 
+transparency, which frustrates customers and delays settlements. Agents also face challenges 
+in tracking and following up with policyholders because of scattered data and the absence of 
+automation. 
+
+To address this, the company wants to implement a Salesforce CRM to: 
+• Automate policy renewal reminders and customer notifications 
+• Manage claims with clear status tracking and approval workflows 
+• Assign and escalate cases to agents based on workload and priority 
+• Provide managers with real-time dashboards and reports for better decision-making 
+
+
+
+Use Cases :- 
+• Policy Management
+➢ Maintain records of policies (health, life, vehicle) with coverage, premium, and expiry 
+date 
+➢ Link policies to customers and track status (active, expired, renewed) 
+
+• Renewal Reminders 
+➢ Auto-generate SMS/Email reminders for upcoming renewals 
+➢ Notify agents for timely follow-up with policyholders 
+
+• Claim Management 
+➢ Allow customers to submit claims via portal or agents 
+➢ Track claim status (submitted → verified → approved/rejected) 
+➢ Auto-escalate claims breaching SLA timelines 
+
+• Agent Assignment 
+➢ Automatically assign claims or renewals to available agents 
+➢ Escalate unresolved cases to senior officers or managers 
+
+• Reporting & Dashboards 
+➢ Renewal rates by policy type and region 
+➢ Average claim resolution times 
+➢ Agent productivity metrics (claims processed, renewals closed)
