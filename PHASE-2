@@ -1,0 +1,58 @@
+Phase 2: Org Setup & Configuration
+
+Salesforce Editions
+  Used Salesforce Developer Edition org for implementation.
+
+Company Profile Setup
+  Organization Name updated to Insurance CRM Project.
+  Default Time Zone set to (GMT+05:30) Asia/Kolkata.
+  Currency set to INR (₹).
+  
+Business Hours & Holidays
+  Business Hours: Monday–Friday, 9:00 AM – 6:00 PM.
+  Saturday and Sunday set as non-working days.
+  
+Fiscal Year Settings
+  Retained Standard Fiscal Year (Jan–Dec).
+
+User Setup & Licenses
+  Created sample users:
+    1 Manager
+    2 Claims Officers
+    2 Agents
+  Assigned unique usernames and Developer licenses.
+
+Profiles
+  Used standard System Administrator profile for admin.
+  Cloned Standard User → created Agent Profile.
+  Cloned Standard User → created Claims Officer Profile.
+
+Roles
+  Defined role hierarchy:
+    Manager (Top) → sees all records.
+    Claims Officer (Middle) → sees team claims.
+    Agent (Bottom) → sees only their own records.
+
+Permission Sets
+  Created Policy Access → assigned to Agents.
+  Created Claim Approval → assigned to Claims Officers.
+
+OWD
+  To be configured in Phase 3 after creating Policy & Claim objects.
+  Plan: Set Policy = Private, Claim = Private.
+
+Sharing Rules
+  To be configured in Phase 3 once objects exist.
+  Plan: Agents → own records only, Claims Officers → team records, Managers → all records via role hierarchy.
+
+Login Access Policies
+  Kept default (admin can log in as users if needed).
+
+Dev Org Setup
+  Configured and used Salesforce Developer Org for project build.
+
+Sandbox Usage
+  Not available in Developer Edition; skipped for this project.
+
+Deployment Basics
+  Deployment will be handled later using Change Sets / Metadata migration after object creation.
